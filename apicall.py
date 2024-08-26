@@ -1,6 +1,6 @@
 
 
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer [your api_key]"}
 
 API_URL_ST = "https://api-inference.huggingface.co/models/cardiffnlp/twitter-roberta-base-sentiment-latest"
 
