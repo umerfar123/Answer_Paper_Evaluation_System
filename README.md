@@ -1,14 +1,12 @@
 <img align="center" alt="Coding" width="100%" height='300px' src="NeXuS.png">
 
-# Answer_Paper_Evaluation_System
-A System For Evaluating Student Answer Using State Of The Art NLP Models
 ___
 ## Introduction
 
-Nexus is an AI-based Answer Sheet Evaluation System. It automates and accelerates the grading process using advanced Natural Language Processing (NLP) Techniques, offering fast and accurate results. Nexus stands for ${\color{blue}N}$ _eural ${\color{blue}E}$ _valuaotory  e ${\color{blue}X}$ _pert ${\color{blue}U}$ _nified ${\color{blue}S}$ _ystem
+Nexus is an AI-based Answer Sheet Evaluation System. It automates and accelerates the grading process using advanced Natural Language Processing (NLP) Techniques, offering fast and accurate results. Nexus stands for ${\color{blue}N}$ _eural ${\color{blue}E}$ _valuaotory  e ${\color{blue}X}$ _pert ${\color{blue}U}$ _nified ${\color{blue}S}$ _ystem.
 
 > [!NOTE]  
-> You Must Have HuggingFace and Streamlit Account For Running This Project
+> You Must Have An HuggingFace and Streamlit Account For Running This Project.
 
 
 ___
@@ -26,10 +24,12 @@ ___
 > Since we are using models from huggingFace and calling it using Inference API (serverless) method you should have a huggingface account and api_key, 
 > This api key must be placed in [apicall.py](https://github.com/umerfar123/um-Answer_Paper_Evaluation_System/blob/main/apicall.py) file.
 
-3. Your api key will look like this : 'hf_XXXXXXXXXXXXXXXXXXXXX', copy and paste it in the mentioned area of [apicall.py](https://github.com/umerfar123/um-Answer_Paper_Evaluation_System/blob/main/apicall.py) file
+3. Your api key will look like this : 'hf_XXXXXXXXXXXXXXXXXXXXX', copy and paste it in the mentioned area of [apicall.py](https://github.com/umerfar123/um-Answer_Paper_Evaluation_System/blob/main/apicall.py) file.
  
-4. Run the [main.py]()
+4. Run the [main.py](https://github.com/umerfar123/um-Answer_Paper_Evaluation_System/blob/main/main.py) python file.
 
    ```python
    Streamlit run main.py
    ```
+> [!TIP]
+> Since we are using Large NLP models, sometimes while running the main.py some errors like ${\color{red}TypeError: string indices must be integers}$ and ${\color{red}KeyError: 0}$ will occur so in streamlit tap ${\color{green}run}$ button ${\color{green}multiple times}$ to tackle this errors.
