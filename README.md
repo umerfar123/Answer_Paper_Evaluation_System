@@ -16,5 +16,13 @@ ___
 ## Installation
 
 1. Download the ZIP file, unzip it, and open the resulting folder in your preferred IDE, such as Visual Studio Code.
-2. Install the libraries mentioned in [requirements.txt]() 
+2. Install the libraries mentioned in [requirements.txt](https://github.com/umerfar123/um-Answer_Paper_Evaluation_System/blob/main/requirements.txt)
+   In VsCode Terminal run the following command:
+   
+   ```python
+   pip install -r requirements.txt
+   ```
+> [!IMPORTANT]  
+> Since we are using models from huggingFace and calling it using Inference API (serverless) method you should have a huggingface account and api_key, 
+> This api key must be placed in [apicall.py]() file
 
