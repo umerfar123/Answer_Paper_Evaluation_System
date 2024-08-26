@@ -1,4 +1,4 @@
-<img align="right" alt="Coding" width="400" src="">
+<img align="center" alt="Coding" width="100%" height='300px' src="NeXuS.png">
 
 # Answer_Paper_Evaluation_System
 A System For Evaluating Student Answer Using State Of The Art NLP Models
@@ -13,5 +13,8 @@ Nexus is an AI-based Answer Sheet Evaluation System. It automates and accelerate
 
 ___
 
-## How To Use This System
+## Installation
+
+1. Download the ZIP file, unzip it, and open the resulting folder in your preferred IDE, such as Visual Studio Code.
+2. Install the libraries mentioned in [requirements.txt]() 
 
